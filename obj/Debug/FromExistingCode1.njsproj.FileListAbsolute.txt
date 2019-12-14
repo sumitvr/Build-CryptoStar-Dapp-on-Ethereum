@@ -1,0 +1,2 @@
+C:\project-5-starter-code\Project_5_Starter_Code\obj\Debug\FromExistingCode1.njsprojAssemblyReference.cache
+C:\project-5-starter-code\Project_5_Starter_Code\bin\Microsoft.NodejsTools.WebRole.dll

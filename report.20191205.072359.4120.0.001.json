@@ -1,0 +1,397 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191205.072359.4120.0.001.json",
+    "dumpEventTime": "2019-12-05T07:23:59Z",
+    "dumpEventTimeStamp": "1575530639613",
+    "processId": 4120,
+    "cwd": "C:\\project-5-starter-code\\Project_5_Starter_Code",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Wipro\\AppData\\Roaming\\npm\\\\node_modules\\truffle\\build\\cli.bundled.js",
+      "develop"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.14393",
+    "osVersion": "Windows Server 2016 Datacenter",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz",
+        "speed": 2397,
+        "user": 13543828,
+        "nice": 0,
+        "sys": 4084734,
+        "idle": 208592531,
+        "irq": 79859
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "00:0d:3a:40:35:b9",
+        "address": "fe80::10:7b6a:79bc:36f4",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "00:0d:3a:40:35:b9",
+        "address": "10.3.28.5",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Teredo Tunneling Pseudo-Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "2001:0:348b:fb58:20a5:2dec:f5fc:e3fa",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Teredo Tunneling Pseudo-Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::20a5:2dec:f5fc:e3fa",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "SEWDev1"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff715851389",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7158557cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff715854778",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff71594332b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff716146f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff71612ef91",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff715ffc85c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff716004961",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff715ff9fc3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff715ff8794",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff716019a65",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff715d86239",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff716572c6d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000022c3a7c4890",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 544006144,
+    "totalCommittedMemory": 544006144,
+    "usedMemory": 536703912,
+    "availableMemory": 1393078832,
+    "memoryLimit": 1929379840,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047472,
+        "available": 16
+      },
+      "old_space": {
+        "memorySize": 179679232,
+        "committedMemory": 179679232,
+        "capacity": 179457192,
+        "used": 173694768,
+        "available": 5762424
+      },
+      "code_space": {
+        "memorySize": 1736704,
+        "committedMemory": 1736704,
+        "capacity": 1627872,
+        "used": 1273056,
+        "available": 354816
+      },
+      "map_space": {
+        "memorySize": 1576960,
+        "committedMemory": 1576960,
+        "capacity": 1574656,
+        "used": 1263840,
+        "available": 310816
+      },
+      "large_object_space": {
+        "memorySize": 359653376,
+        "committedMemory": 359653376,
+        "capacity": 359388928,
+        "used": 359388928,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 239.843,
+    "kernelCpuSeconds": 104.453,
+    "cpuConsumptionPercent": 0.152477,
+    "maxRss": 571293696,
+    "pageFaults": {
+      "IORequired": 10920235,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 743090,
+      "writes": 13
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "": "C:=C:\\project-5-starter-code\\Project_5_Starter_Code",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Wipro\\AppData\\Roaming",
+    "CLIENTNAME": "BNGECO-L-96208",
+    "CommandPromptType": "Native",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "SEWDev1",
+    "ComSpec": "C:\\windows\\system32\\cmd.exe",
+    "DevEnvDir": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\",
+    "dp0": "C:\\Users\\Wipro\\AppData\\Roaming\\npm\\",
+    "ExtensionSdkDir": "C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "Framework40Version": "v4.0",
+    "FrameworkDir": "C:\\Windows\\Microsoft.NET\\Framework\\",
+    "FrameworkDir32": "C:\\Windows\\Microsoft.NET\\Framework\\",
+    "FrameworkVersion": "v4.0.30319",
+    "FrameworkVersion32": "v4.0.30319",
+    "FSHARPINSTALLDIR": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Wipro",
+    "INCLUDE": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.23.28105\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.23.28105\\include;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\cppwinrt",
+    "LIB": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.23.28105\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.23.28105\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\lib\\um\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.18362.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.18362.0\\um\\x86;",
+    "LIBPATH": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.23.28105\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.23.28105\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.23.28105\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.18362.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.18362.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;",
+    "LOCALAPPDATA": "C:\\Users\\Wipro\\AppData\\Local",
+    "LOGONSERVER": "\\\\SEWDev1",
+    "MSBuildLoadMicrosoftTargetsReadOnly": "true",
+    "NETFXSDKDir": "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\",
+    "NUMBER_OF_PROCESSORS": "1",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.23.28105\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.18362.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Wipro\\.windows-build-tools\\python27\\;C:\\Users\\Wipro\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Wipro\\AppData\\Roaming\\npm;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PkgDefApplicationConfigFile": "C:\\Users\\Wipro\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_16bfd704\\devenv.exe.config",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 63 Stepping 2, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3f02",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Microsoft Monitoring Agent\\Agent\\PowerShell\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "ServiceHubUniqueLogDir": "2C54063B",
+    "SESSIONNAME": "RDP-Tcp#49",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\windows",
+    "TEMP": "C:\\Users\\Wipro\\AppData\\Local\\Temp\\2",
+    "ThreadedWaitDialogDpiContext": "-2",
+    "TMP": "C:\\Users\\Wipro\\AppData\\Local\\Temp\\2",
+    "UCRTVersion": "10.0.18362.0",
+    "UniversalCRTSdkDir": "C:\\Program Files (x86)\\Windows Kits\\10\\",
+    "USERDOMAIN": "SEWDev1",
+    "USERDOMAIN_ROAMINGPROFILE": "SEWDev1",
+    "USERNAME": "Wipro",
+    "USERPROFILE": "C:\\Users\\Wipro",
+    "VCIDEInstallDir": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\",
+    "VCINSTALLDIR": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\",
+    "VCToolsInstallDir": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.23.28105\\",
+    "VCToolsRedistDir": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.23.27820\\",
+    "VCToolsVersion": "14.23.28105",
+    "VisualStudioDir": "C:\\Users\\Wipro\\Documents\\Visual Studio 2019",
+    "VisualStudioEdition": "Microsoft Visual Studio Community 2019",
+    "VisualStudioVersion": "16.0",
+    "VS160COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\",
+    "VSAPPIDDIR": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\",
+    "VSAPPIDNAME": "devenv.exe",
+    "VSCMD_ARG_app_plat": "Desktop",
+    "VSCMD_ARG_HOST_ARCH": "x86",
+    "VSCMD_ARG_TGT_ARCH": "x86",
+    "VSCMD_VER": "16.3.9",
+    "VSINSTALLDIR": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\",
+    "VSLANG": "1033",
+    "VSSDK150INSTALL": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VSSDK",
+    "VSSDKINSTALL": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VSSDK",
+    "VSSKUEDITION": "Community",
+    "windir": "C:\\windows",
+    "WindowsLibPath": "C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.18362.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.18362.0",
+    "WindowsSdkBinPath": "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\",
+    "WindowsSdkDir": "C:\\Program Files (x86)\\Windows Kits\\10\\",
+    "WindowsSDKLibVersion": "10.0.18362.0\\",
+    "WindowsSdkVerBinPath": "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.18362.0\\",
+    "WindowsSDKVersion": "10.0.18362.0\\",
+    "WindowsSDK_ExecutablePath_x64": "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\",
+    "WindowsSDK_ExecutablePath_x86": "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\",
+    "_prog": "node",
+    "__DOTNET_ADD_32BIT": "1",
+    "__DOTNET_PREFERRED_BITNESS": "32",
+    "__VSCMD_PREINIT_PATH": "C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Wipro\\.windows-build-tools\\python27\\;C:\\Users\\Wipro\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Wipro\\AppData\\Roaming\\npm"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\windows\\SYSTEM32\\ntdll.dll",
+    "C:\\windows\\System32\\KERNEL32.DLL",
+    "C:\\windows\\System32\\KERNELBASE.dll",
+    "C:\\windows\\System32\\WS2_32.dll",
+    "C:\\windows\\System32\\sechost.dll",
+    "C:\\windows\\System32\\RPCRT4.dll",
+    "C:\\windows\\System32\\ADVAPI32.dll",
+    "C:\\windows\\System32\\msvcrt.dll",
+    "C:\\windows\\System32\\USER32.dll",
+    "C:\\windows\\System32\\win32u.dll",
+    "C:\\windows\\System32\\GDI32.dll",
+    "C:\\windows\\System32\\gdi32full.dll",
+    "C:\\windows\\System32\\PSAPI.DLL",
+    "C:\\windows\\System32\\CRYPT32.dll",
+    "C:\\windows\\System32\\ucrtbase.dll",
+    "C:\\windows\\System32\\MSASN1.dll",
+    "C:\\windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\windows\\SYSTEM32\\USERENV.dll",
+    "C:\\windows\\System32\\profapi.dll",
+    "C:\\windows\\SYSTEM32\\bcrypt.dll",
+    "C:\\windows\\SYSTEM32\\WINMM.dll",
+    "C:\\windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\windows\\System32\\cfgmgr32.dll",
+    "C:\\windows\\System32\\IMM32.DLL",
+    "C:\\windows\\System32\\powrprof.dll",
+    "C:\\windows\\system32\\uxtheme.dll",
+    "C:\\windows\\System32\\combase.dll",
+    "C:\\windows\\System32\\bcryptPrimitives.dll",
+    "C:\\windows\\system32\\mswsock.dll",
+    "C:\\windows\\System32\\kernel.appcore.dll",
+    "C:\\windows\\system32\\napinsp.dll",
+    "C:\\windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\windows\\System32\\NSI.dll",
+    "C:\\windows\\System32\\winrnr.dll",
+    "C:\\windows\\system32\\NLAapi.dll",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc.DLL"
+  ]
+}

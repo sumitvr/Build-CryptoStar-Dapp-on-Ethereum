@@ -1,0 +1,367 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191214.112250.6412.0.001.json",
+    "dumpEventTime": "2019-12-14T11:22:50Z",
+    "dumpEventTimeStamp": "1576322570413",
+    "processId": 6412,
+    "cwd": "C:\\project-5-starter-code\\Project_5_Starter_Code",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Wipro\\AppData\\Roaming\\npm\\node_modules\\truffle\\build\\chain.bundled.js",
+      "develop",
+      "eyJob3N0IjoiMTI3LjAuMC4xIiwicG9ydCI6OTU0NSwibmV0d29ya19pZCI6NTc3NywidG90YWxfYWNjb3VudHMiOjEwLCJkZWZhdWx0X2JhbGFuY2VfZXRoZXIiOjEwMCwiYmxvY2tUaW1lIjowLCJtbmVtb25pYyI6ImNyZXcgbW92ZSBwYWxhY2UgcHJvc3BlciBsb25nIHNraWxsIGRheSBwaWdlb24gZ3Jhdml0eSBicmVhZCBhYmxlIG5ldmVyIiwiZ2FzTGltaXQiOjY3MjE5NzUsImdhc1ByaWNlIjoyMDAwMDAwMDAwLCJub1ZNRXJyb3JzT25SUENSZXNwb25zZSI6dHJ1ZX0="
+    ],
+    "nodejsVersion": "v12.13.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.14393",
+    "osVersion": "Windows Server 2016 Datacenter",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz",
+        "speed": 2397,
+        "user": 377062,
+        "nice": 0,
+        "sys": 267781,
+        "idle": 418656,
+        "irq": 3046
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "00:0d:3a:40:35:b9",
+        "address": "fe80::10:7b6a:79bc:36f4",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "00:0d:3a:40:35:b9",
+        "address": "10.3.28.5",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Teredo Tunneling Pseudo-Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "2001:0:348b:fb58:475:36d7:f5fc:e3fa",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Teredo Tunneling Pseudo-Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::475:36d7:f5fc:e3fa",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "SEWDev1"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7b40a1389",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b40a57cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b40a4778",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b419332b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b4996f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b497ef91",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b484c85c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b4854961",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b4849fc3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b4848794",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b4869a65",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b45d6239",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b4dc2c6d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b4d3e2a2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7b4d3dd3f",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000002a3e246d542",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 106635264,
+    "totalCommittedMemory": 106635264,
+    "usedMemory": 102698448,
+    "availableMemory": 1827294496,
+    "memoryLimit": 1929379840,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047336,
+        "available": 152
+      },
+      "old_space": {
+        "memorySize": 40218624,
+        "committedMemory": 40218624,
+        "capacity": 40166056,
+        "used": 37424024,
+        "available": 2742032
+      },
+      "code_space": {
+        "memorySize": 1474560,
+        "committedMemory": 1474560,
+        "capacity": 1210112,
+        "used": 911072,
+        "available": 299040
+      },
+      "map_space": {
+        "memorySize": 1052672,
+        "committedMemory": 1052672,
+        "capacity": 1050112,
+        "used": 818480,
+        "available": 231632
+      },
+      "large_object_space": {
+        "memorySize": 62529536,
+        "committedMemory": 62529536,
+        "capacity": 62461688,
+        "used": 62461688,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 5.656,
+    "kernelCpuSeconds": 0.921,
+    "cpuConsumptionPercent": 1.9231,
+    "maxRss": 164417536,
+    "pageFaults": {
+      "IORequired": 135157,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 42,
+      "writes": 2024
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Wipro\\AppData\\Roaming",
+    "CLIENTNAME": "BNGECO-L-96208",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "SEWDev1",
+    "ComSpec": "C:\\windows\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Wipro\\AppData\\Roaming\\npm\\",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Wipro",
+    "LOCALAPPDATA": "C:\\Users\\Wipro\\AppData\\Local",
+    "LOGONSERVER": "\\\\SEWDev1",
+    "MSBuildLoadMicrosoftTargetsReadOnly": "true",
+    "NUMBER_OF_PROCESSORS": "1",
+    "OS": "Windows_NT",
+    "Path": "C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Wipro\\.windows-build-tools\\python27\\;C:\\Users\\Wipro\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Wipro\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PkgDefApplicationConfigFile": "C:\\Users\\Wipro\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_16bfd704\\devenv.exe.config",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 63 Stepping 2, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3f02",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Microsoft Monitoring Agent\\Agent\\PowerShell\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "ServiceHubUniqueLogDir": "5C3FB8F6",
+    "SESSIONNAME": "RDP-Tcp#45",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\windows",
+    "TEMP": "C:\\Users\\Wipro\\AppData\\Local\\Temp\\2",
+    "ThreadedWaitDialogDpiContext": "-2",
+    "TMP": "C:\\Users\\Wipro\\AppData\\Local\\Temp\\2",
+    "USERDOMAIN": "SEWDev1",
+    "USERDOMAIN_ROAMINGPROFILE": "SEWDev1",
+    "USERNAME": "Wipro",
+    "USERPROFILE": "C:\\Users\\Wipro",
+    "VisualStudioDir": "C:\\Users\\Wipro\\Documents\\Visual Studio 2019",
+    "VisualStudioEdition": "Microsoft Visual Studio Community 2019",
+    "VisualStudioVersion": "16.0",
+    "VSAPPIDDIR": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\",
+    "VSAPPIDNAME": "devenv.exe",
+    "VSLANG": "1033",
+    "VSSKUEDITION": "Community",
+    "windir": "C:\\windows",
+    "_NTVS_PID": "5960",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\windows\\SYSTEM32\\ntdll.dll",
+    "C:\\windows\\System32\\KERNEL32.DLL",
+    "C:\\windows\\System32\\KERNELBASE.dll",
+    "C:\\windows\\System32\\WS2_32.dll",
+    "C:\\windows\\System32\\sechost.dll",
+    "C:\\windows\\System32\\RPCRT4.dll",
+    "C:\\windows\\System32\\ADVAPI32.dll",
+    "C:\\windows\\System32\\msvcrt.dll",
+    "C:\\windows\\System32\\USER32.dll",
+    "C:\\windows\\System32\\win32u.dll",
+    "C:\\windows\\System32\\GDI32.dll",
+    "C:\\windows\\System32\\gdi32full.dll",
+    "C:\\windows\\System32\\PSAPI.DLL",
+    "C:\\windows\\System32\\CRYPT32.dll",
+    "C:\\windows\\System32\\ucrtbase.dll",
+    "C:\\windows\\System32\\MSASN1.dll",
+    "C:\\windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\windows\\SYSTEM32\\USERENV.dll",
+    "C:\\windows\\System32\\profapi.dll",
+    "C:\\windows\\SYSTEM32\\bcrypt.dll",
+    "C:\\windows\\SYSTEM32\\WINMM.dll",
+    "C:\\windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\windows\\System32\\cfgmgr32.dll",
+    "C:\\windows\\System32\\IMM32.DLL",
+    "C:\\windows\\System32\\powrprof.dll",
+    "C:\\windows\\system32\\uxtheme.dll",
+    "C:\\windows\\System32\\combase.dll",
+    "C:\\windows\\System32\\bcryptPrimitives.dll",
+    "C:\\windows\\system32\\mswsock.dll",
+    "C:\\windows\\System32\\kernel.appcore.dll",
+    "C:\\windows\\system32\\napinsp.dll",
+    "C:\\windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\windows\\System32\\NSI.dll",
+    "C:\\windows\\System32\\winrnr.dll",
+    "C:\\windows\\system32\\NLAapi.dll",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc.DLL"
+  ]
+}
